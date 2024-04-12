@@ -1,0 +1,107 @@
+@font-face {
+    font-family:'anthony';
+    src:url('anthony.woff');
+}
+
+body {
+    background-color:#d2d2d2;
+}
+
+div.tab {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:200px;
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+div.tab.a {
+    background-color: yellow;
+}
+
+div.tab.b{
+    background-color: cyan;
+}
+
+div.tab.c {
+    background-color: magenta;
+}
+
+div.intro {
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:100px;
+}
+
+div.introcol {
+    width:50%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:24px;
+}
+
+div.main {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.headline {
+    font-family:'anthony';
+}
+
+div.headline.a {
+    font-size:300px;
+}
+
+div.headline.b {
+    font-size:100px;
+}
+
+div.headline.c {
+    font-size:200px;
+}
+
+div.headline.one {
+    border-left:20px solid red;
+}   
+
+div.headline.two {
+    border-left:20px solid blue;
+}
+
+div.headline.three {
+    border-left:20px solid green;
+}
+
+div.headline.x {
+    display:block;
+}
+
+div.headline.y {
+    display:block;
+}
+
+div.headline.z {
+    display:block;
+}
+
+div.random {
+    transition:1s;
+}
+
+div.footer {
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+}
+
+div.footercol {
+    width:25%;
+    font-size:32px;
+    font-family:Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
